@@ -1,2 +1,2 @@
-# A-Collection-of-Basic-solidity-Contracts
+# A collection of basic solidity contracts
 Random collection of solidity contracts for educational purposes only
