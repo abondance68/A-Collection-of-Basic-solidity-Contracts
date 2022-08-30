@@ -43,22 +43,23 @@ function Register (
 
   }
 
-function RetrieveAge() public view returns (uint) { 
+function RetrieveAge() external
+ view returns (uint) { 
   return age; 
  
 }
 
-function RetrieveName() public view returns (string memory) { 
+function RetrieveName() external  view returns (string memory) { 
   return name; 
 }
 
-function RetrieveCountry() public view returns (string memory) { 
+function RetrieveCountry() external  view returns (string memory) { 
   return country; 
 }
 
 
 
-function addPerson (string memory _name, string memory _country, string memory _city, uint _age) public { 
+function addPerson (string memory _name, string memory _country, string memory _city, uint _age) external  { 
   people.push(People(_name, _country, _city, _age)); 
   NameToCountry[_name]  = _country; 
   NameToCity[name] = _city; 
